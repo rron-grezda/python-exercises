@@ -44,12 +44,20 @@
 # greet("Rron", "Grezda")
 # greet("Albina", "Grezda")
 
-def get_name(name):
-    print("Hello", name)
+# def get_name(name):
+#     print("Hello", name)
 
-get_name("Rron")
+# get_name("Rron")
 
 
+def even_or_odd(number):
+    if number % 2 == 0:
+        print("The number is Even.")
+    else:
+        print("The number is Odd.")
+
+num = int(input("Enter a number: "))
+even_or_odd(num)
 
 
 
