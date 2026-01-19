@@ -44,6 +44,10 @@
 # greet("Rron", "Grezda")
 # greet("Albina", "Grezda")
 
+def get_name(name):
+    print("Hello", name)
+
+get_name("Rron")
 
 
 
