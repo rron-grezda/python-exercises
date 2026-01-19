@@ -36,4 +36,4 @@ elif choose == '3':
 elif choose == '4':
     print("Result: ", divide(num1, num2))
 else:
-    print("Invalid operation!")
+    print("Invalid operation, choose an operation between 1-4!")
