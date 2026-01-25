@@ -27,3 +27,21 @@ def sec_dec_func():
 
 print(first_dec_func())
 print(sec_dec_func())
+
+
+print("--------------------")
+
+
+def divide(function):
+    def div(x, y):
+        if y == 0:
+            return "Division by zero is not allowed!"
+        return function(x, y)
+    return div
+
+@divide
+def divide_numbers(x, y):
+    return x / y
+
+print(divide_numbers(56, 7))
+print(divide_numbers(10, 0))
