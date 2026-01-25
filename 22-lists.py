@@ -53,3 +53,27 @@ print("--------------------")
 #pop()
 students.pop(3)
 print(students)
+
+print("--------------------")
+
+#remove()
+students.remove("Nora")
+print(students)
+
+print("--------------------")
+
+#sort()
+students.sort() #    0         1        2        3       4
+print(students) # ["Arthur", "John", "Oscar", "Romeo", "Rron"]
+
+print("--------------------")
+
+#reverse()
+students.reverse()  #   0        1        2        3       4
+print(students)     #['Rron', 'Romeo', 'Oscar', 'John', 'Arthur']
+
+print("--------------------")
+
+#Change the value of an element
+students[2] = "Nora" # The value at index [2] – Oscar is changed to ‘Nora’.
+print(students) # ['Rron', 'Romeo', 'Nora', 'John', 'Arthur']
