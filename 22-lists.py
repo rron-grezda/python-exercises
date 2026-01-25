@@ -44,5 +44,12 @@ print(students)
 
 print("--------------------")
 
+#insert()
 students.insert(3, "XYZ")
+print(students)
+
+print("--------------------")
+
+#pop()
+students.pop(3)
 print(students)
