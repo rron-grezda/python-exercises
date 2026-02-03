@@ -1,6 +1,7 @@
-seasons = ("Spring", "Summer", "Autumn", "Winter")
+seasons = ("Spring", "X", "Summer", "Autumn", "Winter", "X")
 
 print(seasons[1])
+#seasons.append("X season")           -Error: 'tuple' object has no attribute 'append'
 
 for s in seasons:
     print(s)
@@ -10,15 +11,17 @@ if "Winter" in seasons:
 else:
     print("Not so cold!")
 
-if "X season" in seasons:
+if "X season" not in seasons:
     print("Hot!")
 else:
     print("Not so hot!")
-
 
 
 list = ["one", "two", "three"]
 
 convert_list_to_tuple = tuple(list)
 print(type(convert_list_to_tuple))
-#seasons.append("X season")           -Error: 'tuple' object has no attribute 'append'
+
+
+print(seasons.count("X"))
+print(seasons.index("Autumn"))
