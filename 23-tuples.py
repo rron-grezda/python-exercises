@@ -1,3 +1,8 @@
+'''
+Tuples in Python store multiple items in one variable, like lists, but they are ordered and immutable (cannot be changed after creation).
+We use them to protect data from being modified, to group related values, and because they are faster and safer than lists when data should stay constant.
+'''
+
 seasons = ("Spring", "X", "Summer", "Autumn", "Winter", "X")
 
 print(seasons[1])
