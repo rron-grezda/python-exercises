@@ -9,6 +9,7 @@ group_members = {"Rron", "Oscar", "Tim", "Oscar"}
 intern = {"Patricia"}
 print(group_members.union(intern))
 
+group_members.add("Carl")
 
 for member in group_members:
     print(member)
