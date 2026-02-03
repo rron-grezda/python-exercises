@@ -14,4 +14,11 @@ if "X season" in seasons:
     print("Hot!")
 else:
     print("Not so hot!")
+
+
+
+list = ["one", "two", "three"]
+
+convert_list_to_tuple = tuple(list)
+print(type(convert_list_to_tuple))
 #seasons.append("X season")           -Error: 'tuple' object has no attribute 'append'
