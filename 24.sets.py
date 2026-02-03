@@ -5,5 +5,10 @@ We use them to remove duplicates, check membership quickly, and perform set oper
 
 group_members = {"Rron", "Oscar", "Tim", "Oscar"}
 
+
+intern = {"Patricia"}
+print(group_members.union(intern))
+
+
 for member in group_members:
     print(member)
