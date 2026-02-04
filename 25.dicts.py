@@ -8,5 +8,19 @@ students = {
     "age": "24"
 }
 
+for key, value in students.items():
+    print(key + ": " + str(value))
+
+print("--------------------------")
 print(students["name"])
 print(students["name"] +" "+ students["surname"] +" "+ str(students["age"]))
+
+
+residence = {
+    "name": "Rron",
+    "surname": "Grezda",
+    "city": "Espoo",
+    "state": "Finland"
+}
+
+print(residence["city"])
