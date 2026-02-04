@@ -15,7 +15,16 @@ print("--------------------------")
 print(students["name"])
 print(students["name"] +" "+ students["surname"] +" "+ str(students["age"]))
 
+print("- - - Dictionary functions - - -")
 
+students.update({"avg_grade": "8.5"})
+print(students)
+
+#students.clear()       clears the items in dicts
+
+
+
+print("--------------------------")
 residence = {
     "name": "Rron",
     "surname": "Grezda",
