@@ -20,6 +20,8 @@ print(students)
 
 print(students.get("age"))      # Read 
 
+students.pop("avg_grade")
+print(students)
 #students.clear()       clears the items in dicts
 
 print(students.keys())          # prints keys
