@@ -11,16 +11,19 @@ students = {
 for key, value in students.items():
     print(key + ": " + str(value))
 
-print("--------------------------")
-print(students["name"])
 print(students["name"] +" "+ students["surname"] +" "+ str(students["age"]))
 
 print("- - - Dictionary functions - - -")
 
-students.update({"avg_grade": "8.5"})
+students.update({"avg_grade": "8.5"})       # Create - adds key, value to the dicts
 print(students)
 
+print(students.get("age"))      # Read 
+
 #students.clear()       clears the items in dicts
+
+print(students.keys())          # prints keys
+print(students.values())        # prints values
 
 
 
