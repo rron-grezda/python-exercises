@@ -6,7 +6,6 @@ string = (" python is a high-level, interpreted, general-purpose programming lan
 for s in string:
     print(s)
 
-
 print(string[0:16])
 
 # String functions
@@ -24,3 +23,7 @@ print(string.capitalize())
 print(string.strip()) # Removes spaces at the beginning and at the end
 print(string.lstrip()) # Removes spaces at the left
 print(string.rstrip()) # Removes spaces at the right
+print(string.find("general"))
+
+age = "24"
+print(age.isnumeric())
