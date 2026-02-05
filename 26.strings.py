@@ -45,5 +45,10 @@ if "@" in email and "." in email:
 else:
     print("Invalid email!")
 
+# Capitalize the first letter of each word.
 capitalize_sentence = ("i am learning finnish.")
 print(capitalize_sentence.title())
+
+#
+count_words = ("Python is easy")
+print(len(count_words.split()))
