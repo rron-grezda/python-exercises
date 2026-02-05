@@ -29,5 +29,18 @@ age = "24"
 print(age.isnumeric())
 
 # Exercises with Strings
+# Replace "Java" with "Python"
 sentence = "This is Java."
 print(sentence.replace("Java.", "Python."))
+
+# Write a sentence with spaces at the beginning and end, remove the spaces.
+sentence_with_spaces = ("  This is a sentence with spaces.  ")
+print(sentence_with_spaces.strip())
+
+# Write a program that checks if a string contains "@" and ".".
+email = "rron@gmail.com"
+
+if "@" in email and "." in email:
+    print("Valid email!")
+else:
+    print("Invalid email!")
