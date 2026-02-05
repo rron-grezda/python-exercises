@@ -27,3 +27,7 @@ print(string.find("general"))
 
 age = "24"
 print(age.isnumeric())
+
+# Exercises with Strings
+sentence = "This is Java."
+print(sentence.replace("Java.", "Python."))
