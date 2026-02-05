@@ -44,3 +44,6 @@ if "@" in email and "." in email:
     print("Valid email!")
 else:
     print("Invalid email!")
+
+capitalize_sentence = ("i am learning finnish.")
+print(capitalize_sentence.title())
