@@ -8,6 +8,15 @@ Error handling in Python is a way to manage and respond to errors in your progra
 try:
     print(x)
 except:
-    print("Error - x is not defined!")
-finally:
-    print("Finally!")
+    print("Error! X is not defined!")
+# finally:
+#     print("Finally!")
+
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("You can not divide by zero!")
+except ValueError:
+    print("Please enter a valid number!")
+
