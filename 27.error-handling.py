@@ -20,3 +20,14 @@ except ZeroDivisionError:
 except ValueError:
     print("Please enter a valid number!")
 
+print("-------------------------------------")
+
+numbers = [10, 20, 30]
+
+try:
+    index = int(input("Enter an index (0, 1, 2)"))
+    print("The value of the entered index is: ", numbers[index])
+except IndexError:
+    print("Index does not exist!")
+except ValueError:
+    print("Please enter a valid number.")
