@@ -29,3 +29,17 @@ list_numbers = [5, 8, 12, 3, 7]
 
 multiply_list = [n*2 for n in list_numbers]
 print(multiply_list)
+
+# From the list: ⬇️ create a list with only odd numbers.
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+odd_numbers = [n for n in list if n % 2 != 0]
+print(odd_numbers)
+
+# Create a list with words that have more than 4 letters.
+
+fruits = ["apple", "banana", "kiwi", "pear", "watermelon"]
+
+fruit_length = [fruit for fruit in fruits if len(fruit) > 4]
+print(fruit_length)
