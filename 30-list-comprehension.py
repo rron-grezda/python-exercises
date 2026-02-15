@@ -43,3 +43,10 @@ fruits = ["apple", "banana", "kiwi", "pear", "watermelon"]
 
 fruit_length = [fruit for fruit in fruits if len(fruit) > 4]
 print(fruit_length)
+
+# Even or Odd
+numbers = [1, 2, 3, 4, 5, 6]
+print(numbers)
+
+even_odd = ["even" if n % 2 == 0 else "odd" for n in numbers]
+print(even_odd)
