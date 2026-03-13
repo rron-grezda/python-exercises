@@ -21,16 +21,25 @@
 #     print(number)
 
 
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-num3 = int(input("Enter another number: "))
+# num1 = int(input("Enter a number: "))
+# num2 = int(input("Enter another number: "))
+# num3 = int(input("Enter another number: "))
 
-largest = num1
+# largest = num1
 
-if num2 > largest:
-    largest = num2
+# if num2 > largest:
+#     largest = num2
 
-if num3 > largest:
-    largest = num3
+# if num3 > largest:
+#     largest = num3
 
-print("The largest number is: ", largest)
+# print("The largest number is: ", largest)
+
+
+# word = input("Write a word: ")
+# print("The word you entered has", len(word), "letters.")
+
+
+for even_number in range(1,21):
+    if even_number % 2 == 0:
+        print(even_number)
