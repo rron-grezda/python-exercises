@@ -40,6 +40,12 @@
 # print("The word you entered has", len(word), "letters.")
 
 
-for even_number in range(1,21):
-    if even_number % 2 == 0:
-        print(even_number)
+# for even_number in range(1,21):
+#     if even_number % 2 == 0:
+#         print(even_number)
+
+
+birth_year = int(input("What year were you born: "))
+age = 2026 - birth_year
+
+print("You are", age, "years old.")
