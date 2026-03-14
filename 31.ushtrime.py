@@ -51,5 +51,16 @@
 # print("You are", age, "years old.")
 
 
-name = input("Write your name: ")
-print(name.upper())
+# name = input("Write your name: ")
+# print(name.upper())
+
+
+birth_year = int(input("Write your birth year: "))
+age = 2026 - birth_year
+
+if age in range(0, 18):
+    print("You are a minor.")
+elif age in range(18, 65):
+    print("You are mature.")
+else:
+    print("You are old.")
