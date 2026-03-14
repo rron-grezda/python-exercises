@@ -84,15 +84,34 @@
 #     print("Password is valid!")
 
 
-secret_number = 11
 
-while True:
-    guess = int(input("Guess the number between 1-20: "))
-    
-    if guess < secret_number:
-        print("The number is higher")
-    elif guess > secret_number:
-        print("The number is lower")
-    else:
-        print("Congrats!!! You found the number.")
-        break
+# secret_number = 11
+
+# while True:
+#     guess = int(input("Guess the number between 1-20: "))
+
+#     if guess < secret_number:
+#         print("The number is higher")
+#     elif guess > secret_number:
+#         print("The number is lower")
+#     else:
+#         print("Congrats!!! You found the number.")
+#         break
+
+
+
+import random
+
+compliments = [
+    "you are very intelligent!",
+    "you have a fantastic smile!",
+    "you are very creative!",
+    "you know how to make people feel good!",
+    "you have a positive energy!"
+]
+
+name = input("What is your name? ")
+
+select_compliment = random.choice(compliments)
+
+print(name, select_compliment)
