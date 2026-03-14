@@ -45,7 +45,11 @@
 #         print(even_number)
 
 
-birth_year = int(input("What year were you born: "))
-age = 2026 - birth_year
+# birth_year = int(input("What year were you born: "))
+# age = 2026 - birth_year
 
-print("You are", age, "years old.")
+# print("You are", age, "years old.")
+
+
+name = input("Write your name: ")
+print(name.upper())
