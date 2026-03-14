@@ -100,18 +100,28 @@
 
 
 
-import random
+# import random
 
-compliments = [
-    "you are very intelligent!",
-    "you have a fantastic smile!",
-    "you are very creative!",
-    "you know how to make people feel good!",
-    "you have a positive energy!"
-]
+# compliments = [
+#     "you are very intelligent!",
+#     "you have a fantastic smile!",
+#     "you are very creative!",
+#     "you know how to make people feel good!",
+#     "you have a positive energy!"
+# ]
 
-name = input("What is your name? ")
+# name = input("What is your name? ")
 
-select_compliment = random.choice(compliments)
+# select_compliment = random.choice(compliments)
 
-print(name, select_compliment)
+# print(name, select_compliment)
+
+
+full_name = input("What is your full name? ")
+
+parts = full_name.split() #splits the String in Words
+
+initials = parts[0][0].upper() + "." + parts[1][0].upper()
+#               [0]1st word, [0]1st letter | [1]2nd word, [0]1st letter
+
+print("Your initials: ", initials)
