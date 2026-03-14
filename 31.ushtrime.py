@@ -55,12 +55,22 @@
 # print(name.upper())
 
 
-birth_year = int(input("Write your birth year: "))
-age = 2026 - birth_year
+# birth_year = int(input("Write your birth year: "))
+# age = 2026 - birth_year
 
-if age in range(0, 18):
-    print("You are a minor.")
-elif age in range(18, 65):
-    print("You are mature.")
+# if age in range(0, 18):
+#     print("You are a minor.")
+# elif age in range(18, 65):
+#     print("You are mature.")
+# else:
+#     print("You are old.")
+
+
+word = input("Write a word, I will calculate the length: ")
+
+if len(word) < 5:
+    print("The length of the word is short.")
+elif 5 <= len(word) <= 8:
+    print("The length of the word is average.")
 else:
-    print("You are old.")
+    print("The length of the word is long.")
