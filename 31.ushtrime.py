@@ -76,9 +76,23 @@
 #     print("The length of the word is long.")
 
 
-password = input("Type your password: ")
+# password = input("Type your password: ")
 
-if len(password) < 8 :
-    print("Password must be at least 8 characters!")
-else:
-    print("Password is valid!")
+# if len(password) < 8 :
+#     print("Password must be at least 8 characters!")
+# else:
+#     print("Password is valid!")
+
+
+secret_number = 11
+
+while True:
+    guess = int(input("Guess the number between 1-20: "))
+    
+    if guess < secret_number:
+        print("The number is higher")
+    elif guess > secret_number:
+        print("The number is lower")
+    else:
+        print("Congrats!!! You found the number.")
+        break
