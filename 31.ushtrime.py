@@ -66,11 +66,19 @@
 #     print("You are old.")
 
 
-word = input("Write a word, I will calculate the length: ")
+# word = input("Write a word, I will calculate the length: ")
 
-if len(word) < 5:
-    print("The length of the word is short.")
-elif 5 <= len(word) <= 8:
-    print("The length of the word is average.")
+# if len(word) < 5:
+#     print("The length of the word is short.")
+# elif 5 <= len(word) <= 8:
+#     print("The length of the word is average.")
+# else:
+#     print("The length of the word is long.")
+
+
+password = input("Type your password: ")
+
+if len(password) < 8 :
+    print("Password must be at least 8 characters!")
 else:
-    print("The length of the word is long.")
+    print("Password is valid!")
